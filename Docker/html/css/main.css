@@ -43,10 +43,10 @@ main{
     justify-content: space-around;
 }
 .login-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 140px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;  
 }
 .login-button{
     height: 79px;
@@ -90,14 +90,43 @@ main{
     background-color: white;
 }
 .left-block{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     display: flex;
     background-color: red;
 }
 .right-block{
-    width: 100px;
-    height: 100px;
+    width: 600px;
+    height: 300px;
     display: flex;
     background-color: red;
+    border-radius: 10px;
+}
+.text-container{
+    width: 100%;
+    height: 61%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.intro-text{
+    height: 24px;
+    width: 72%;
+    font-size: 24px;
+}
+.sub-intro{
+    height: 2px;
+    width: 80%;
+    font-size: 23px;    
+}
+.intro-push2{
+    width: 299px;
+}
+.categorieen-container{
+    height: 700px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
 }
