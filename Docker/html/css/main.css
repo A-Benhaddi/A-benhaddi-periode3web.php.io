@@ -1,0 +1,103 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(97, 6, 6);
+}
+.container-logo{
+    height: 100px;
+    width: 400px;
+    display: flex;
+}
+.store-logo{
+    height: 100px;
+    width: 100px;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+.push{
+    width: 299px;
+}
+.menu-container{
+    height: 100px;
+    width: 680px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.menu-bar{
+    height: 40px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.login-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 140px;  
+}
+.login-button{
+    height: 79px;
+    width: 100px;
+}
+.button-tekst{
+    height: 16px;
+    width: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.button {
+    height: 35px;
+    width: 77px;
+    display: flex;
+    border-radius:10px;
+    padding: 10px;
+    background-color: red;
+    justify-content: center;
+}
+.intro-push{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.intro-container{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.intro{
+    height: 500px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+.left-block{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background-color: red;
+}
+.right-block{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background-color: red;
+}
