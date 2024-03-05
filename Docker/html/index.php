@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <link rel="stylesheet" href="css/main.css">
@@ -39,13 +39,15 @@
           <div class="left-block">
             <img src="imgs/bullcar.png">
           </div>
-          <div class=right-block>
-            <div class=text-container>
-            <div class=intro-text><h1>Welkom bij Redstore</h1></div>
-              <div class=sub-intro><p>Wij bezorgen boodschappen enkle minuten.We bezorgen van veilg in enkele minuten en 24/7 Alleen doordeweeks.</p></div>
+          <div class="right-block">
+            <div class="text-container">
+            <div class="intro-text"><h1>Welkom bij Redstore</h1></div>
+              <div class="sub-intro"><p>Wij bezorgen boodschappen enkle minuten.We bezorgen van veilg in enkele minuten en 24/7 Alleen doordeweeks.</p></div>
   </div>
+          </div>
+        </div>
+        </div>
   <div class="intro-push2"></div>
-
   <div class=categorieen-container>
     <h1>categorieen container<h1>
   </div>
