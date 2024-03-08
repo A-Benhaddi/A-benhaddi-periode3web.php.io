@@ -22,7 +22,7 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: red;
+    background-color: white;
 }
 .push{
     width: 299px;
@@ -87,7 +87,7 @@ main{
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    background-color: white;
+    background-color: rgb(97, 6, 6);
 }
 .left-block{
     width: 200px;
@@ -125,8 +125,85 @@ main{
 }
 .categorieen-container{
     height: 700px;
-    width: 500px;
+    width: 100%;
     display: flex;
     justify-content: center;
     background-color: white;
+}
+.categorieen{
+    height: 500px;
+    width: 1000px;
+    background-color: rgb(97, 6, 6);
+}
+.categorieen-titel{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: black;
+}
+.producten-container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.openingstijden-container{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.tijden-container{
+    height: 800px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(97, 6, 6);
+}
+.openingstijden-titel{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.openingstijden{
+    height: 600px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.push5{
+    height: 200px;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(97, 6, 6);
+}
+.footercontainer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.menu-footercontainer{
+    height: 100px;
+    width: 680px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.menu-footer{
+    height: 40px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
