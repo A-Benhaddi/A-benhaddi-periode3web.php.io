@@ -46,7 +46,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 140px;  
+    height: 104px;  
 }
 .login-button{
     height: 79px;
@@ -206,4 +206,45 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.boodschapen-container{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-producten{
+    height: 500px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(97, 6, 6);
+}
+.producten-linkeblok{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    background-color: red;
+    border-radius: 10px;
+}
+.producten-rechtenblok{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    background-color: red;
+    border-radius: 10px;
+}
+.tekst-product{
+    height: 200px;
+    width: 200px;
+}
+.tekst-linkeblok{
+    height: 30%;
+    width: 30%;
+}
+.tekst-rechteblok{
+    height: 30%;
+    width: 30%;
 }

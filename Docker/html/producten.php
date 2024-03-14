@@ -47,15 +47,37 @@
           </div>
         </div>
         </div>
-  
         <div class="intro-push2"></div>
-        <div class="boodschapen-container">
-          <div class="container-producten">
-            <div class="producten-linkeblok">
-              <div class="linkebloktekst"><h3>boodschapen<h3></div>
-                  <div class="producten-rechtenblok">
-                    <div class="rechtebloktekst"><h3>producten<h3></div>
+
+        <div class="categorieen-container">
+    <div class="categorieen">
+  <div class="categorieen-titel"><h1>Categorieen<h1></div>
+  <div class=producten-container>
+    <a>Zuivel, eieren, boter</a>
+    <a>bakkerij</a>
+    <a>vlees,vis</a>
+    <a>kaas,vleeswaren tapas</a>
+    <div class=producten-imgs>
+      <div class=product1>
+        <img class="product1" src=imgs/> </div>
+      <div class=product2></div>
+      <div class=product3></div>
+      <div class=product4></div>
+    
+    <a>bakkerij</a>
+    <a>vlees,vis</a>
+    <a>kaas,vleeswaren tapas</a>
+  </div>
+    <div class=producten-text>
+    <a>Zuivel, eieren, boter</a>
+    <a>bakkerij</a>
+    <a>vlees,vis</a>
+    <a>kaas,vleeswaren tapas</a>
+  </div>
+  </div>
 </div>
+</div>
+        
 <div class="openingstijden-container">  
   <div class="tijden-container">
     <div class="openingstijden-titel"><h1>Openingstijden</h1></div>
