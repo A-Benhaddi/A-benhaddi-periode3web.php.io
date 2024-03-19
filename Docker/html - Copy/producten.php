@@ -1,3 +1,6 @@
+<?php
+include '/pages/conn.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>

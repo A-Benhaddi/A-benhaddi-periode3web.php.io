@@ -1,3 +1,6 @@
+<?php
+include 'pages/conn.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,12 +14,10 @@
         <img class="store-logo" src="imgs/storelogo.png">
       </div>
       <div class="menu-container">
-        <div class="login-container">
-          <div class="menu-bar">
-            <a href="http://localhost:8000/index.php">Home</a>
-            <a href="http://localhost:8000/pages/producten.php">Store</a>
-              <p>About Us</p>
-          </div>
+        <div class="menu-bar">
+          <p>Home</p>
+          <p>Store</p>
+          <p>About Us</p>
         </div>
       </div>
       <div class="push"></div>
