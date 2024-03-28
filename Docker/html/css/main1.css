@@ -370,12 +370,15 @@ footer{
     background-color: white;
 }
 form{
-    height: 400px;
-    width: 50%;
+    height: 420px;
+    width: 54%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
+    border-radius: 10px;
     background-color: rgb(97, 6, 6);
+    color: white;
 }
 label{
     width: 200px;
@@ -387,4 +390,38 @@ input{
 }
 a{
     color: white;
+}
+.submit-button {
+    display: block;
+    width: 100px;
+    height: 31px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 51px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.submit-button:hover {
+    background-color: red;
+}
+  
+.submit-button h2 {
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    line-height: 32px;
+}
+.login-titel{
+    width: 161px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
 }
