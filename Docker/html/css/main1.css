@@ -2,6 +2,7 @@
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
+    max-width: 100%;
 }
 nav{
     height: 100px;
@@ -91,8 +92,8 @@ main{
     background-color: rgb(97, 6, 6);
 }
 .left-block{
-    width: 200px;
-    height: 200px;
+    width: 270px;
+    height: 270px;
     display: flex;
     background-color: red;
 }
@@ -119,7 +120,7 @@ main{
 .sub-intro{
     height: 2px;
     width: 80%;
-    font-size: 23px;    
+    font-size: 23px;
 }
 .intro-push2{
     width: 299px;
@@ -384,6 +385,6 @@ label{
 input{
     border-radius: 5px;
 }
-button{
-
+a{
+    color: white;
 }

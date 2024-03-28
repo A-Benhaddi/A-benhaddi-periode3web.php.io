@@ -10,8 +10,9 @@ $password =$_POST["password"];
 
 if ($username = "admin" && $password = "admin"){
     $_SESSION["user"] = $username;
-    header("location:dashboard.php");
+    $_SESSION["password"] = $password;
+    header("Location: dashboard.php");
 }else{
-    header("Location: login.php");
+    header("Location: index.php");
 }
 ?>

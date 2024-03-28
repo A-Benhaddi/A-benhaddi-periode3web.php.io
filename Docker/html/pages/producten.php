@@ -25,7 +25,8 @@ include '../pages/conn.php';
     // Loop voor alles wat we vinden
     while ($row = $stmt->fetch()) {
       echo '<div class="singleProduct">';
-      echo $row['naam']; 
+      echo $row['naam'];
+      echo $row['prijs'];
       echo '</div>';
     }
     ?>
