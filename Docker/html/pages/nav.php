@@ -8,7 +8,7 @@
   <body>
     <nav>
       <div class="container-logo">
-        <img class="store-logo" src="imgs/storelogo.png">
+        <img class="store-logo" src="../imgs/storelogo.png">
       </div>
       <div class="menu-container">
         <div class="login-container">
@@ -29,13 +29,6 @@
           </a>
       </div>
     </nav>
-    <main>
-      <div class="intro-push"></div>
-      <div class="intro-container">
-        <div class="intro">
-          <div class="left-block">
-            <img src="imgs/bullcar.png">
-          </div>
-          </footer>
+ 
   </body>
 </html>

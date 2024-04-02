@@ -425,3 +425,11 @@ a{
     font-size: 30px;
     justify-content: center;
 }
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+}
