@@ -13,7 +13,7 @@
   include '../pages/conn.php';
   ?>
 
-
+ 
   <header>
 
     <section class='productenRow'>
@@ -24,6 +24,7 @@
       // Loop voor alles wat we vinden
       while ($row = $stmt->fetch()) {
         echo '<div class="singleProduct">';
+        echo '<img class="menu-fotos" src="../imgs/banaan.jpg" alt="">';
         echo $row['naam'];
         echo $row['prijs'];
         echo '</div>';
