@@ -86,8 +86,8 @@
     <div class="footercontainer">
       <div class="menu-footercontainer">
         <div class="menu-footer">
-          <p>Home</p>
-          <p>Store</p>
+          <a href="http://localhost:8000/index.php">Home</a>
+          <a href="http://localhost:8000/pages/producten.php">Store</a>
           <p>About Us</p>
         </div>
       </div>
