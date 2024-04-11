@@ -10,10 +10,12 @@
 <body>
   <?php
   include '../pages/nav.php';
-  include '../pages/conn.php';
+  include 'conn.php';
   ?>
-
- 
+  <div class="whitebalk"></div>
+  <div class="container-rodebalk">
+  <div class="rodebalk"></div>
+  </div>
   <header>
 
     <section class='productenRow'>
@@ -27,6 +29,8 @@
         echo '<img class="menu-fotos" src="../imgs/banaan.jpg" alt="">';
         echo $row['naam'];
         echo $row['prijs'];
+        echo $row['omschrijving'];
+
         echo '</div>';
       }
       ?>

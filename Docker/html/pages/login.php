@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,6 +11,8 @@
 </head>
 <?php
 include '../pages/nav.php';
+include '../pages/conn.php';
+
 ?>
 
 <body>
@@ -34,8 +37,7 @@ include '../pages/nav.php';
       </div>
       <div class="forgot-password">Forgot Password?</div>
       
-      <button type="submit" value="Login" class="submit-button">
-        <h2>Log In</h2>
+      <input type="submit" value="Login" class="submit-button">
       </button>
       
       <div class="registeer-link">

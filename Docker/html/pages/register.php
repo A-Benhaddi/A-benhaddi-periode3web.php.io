@@ -1,3 +1,6 @@
+<?php
+include '../pages/nav.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,27 +12,6 @@
 </head>
 
 <body>
-  <nav>
-    <div class="container-logo">
-      <img class="store-logo" src="../imgs/storelogo.png">
-    </div>
-    <div class="menu-container">
-      <div class="menu-bar">
-        <p>Home</p>
-        <p>Store</p>
-        <p>About Us</p>
-      </div>
-    </div>
-    <div class="push"></div>
-    <div class="login-container">
-      <a href="http://localhost:8000/pages/login.php" class="button">
-        <div class="button-tekst">
-          <p>Login</p>
-        </div>
-        </button>
-      </a>
-    </div>
-  </nav>
   <div class="push"></div>
   <div class="form-container">
     <form action='register_logic.php' name='register_logic' method="POST">
