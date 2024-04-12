@@ -33,9 +33,9 @@ include '../pages/nav.php';
 
 		foreach ($data as $row) {
       echo $row['naam'];
-			echo "<a href='pages/product_update.php".$row['id']."'>Update</a>";
-			echo "<a href='pages/product_update.php".$row['id']."'>Delete</a>";
-		} 
+      echo "<a href='producten_update.php?id=".$row ['id']."'>Update</a>";
+      echo "<a href='producten_delete.php?id=".$row['id']."'>Delete</a>";
+		}
 		?>
 	</div>
     

@@ -1,6 +1,6 @@
 <?php
 session_start();
-  include '../pages/conn.php';
+  include 'conn.php';
 
 if (empty($_POST ["username"])|| empty($_POST["password"])){
     header("Location: dashboard.php");

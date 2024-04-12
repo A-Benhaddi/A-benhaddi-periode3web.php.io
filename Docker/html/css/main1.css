@@ -500,4 +500,8 @@ form .txt_field{
     width: 100%;
     background-color: rgb(97, 6, 6);
 }
-
+.div{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(97, 6, 6);
+}

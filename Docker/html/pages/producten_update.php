@@ -1,12 +1,12 @@
 <?php
 session_start();
-include("conn.php");  //connecting
+include 'conn.php';//connecting
 
-$stmt = $connection->prepare("SELECT * FROM producten WHERE id=:id"); 
-$stmt -> prepare($sql);
-$product = $stmt->fetch();
+$stmt = $connection->prepare("SELECT*FROM Producten WHERE id=:id"); 
+$stmt->execute(['id'=>$_GET['id']]);
+$Producten = $stmt->fetch();
 ?>
-execute($data);
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,14 +16,14 @@ execute($data);
     <link rel="stylesheet" href="css/main1.css">
 </head>
 <body>
-    <form action='login.logic.php' name="product_update_logic" method="POST">
-          <label> Id van product: </label>
-            <input type="text" name="id_product" value="<?php echo $producten['id']; ?>" required>
-            <label>Naam van product: </label>
-          <input type="text" name="id_product" value="<?php echo $producten['naam']; ?>" required>
-          <label>Prijs van product: </label>
-          <input type="text" name="id_product" value="<?php echo $producten['prijs']; ?>" required>
-          <input type="submit" value="update product">
+    <form action='product_logic_update.php' name="logic" method="POST">
+          <label> Id van Producten: </label>
+          <input type="text" name="id" value="<?php echo $Producten['id']; ?>" required>
+          <label>Naam van Producten: </label>
+          <input type="text" name="naam" value="<?php echo $Producten['naam']; ?>" required>
+          <label>Prijs van Producten: </label>
+          <input type="text" name="prijs" value="<?php echo $Producten['prijs']; ?>" required>
+          <input type="submit" value="update Producten">
     </form>
 </body>
 </html>
