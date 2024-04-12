@@ -502,6 +502,9 @@ form .txt_field{
 }
 .div{
     width: 400px;
-    height: 100px;
+    height: 400px;
+    display: flex;
     background-color: rgb(97, 6, 6);
+    align-items: center;
+    flex-direction: column;
 }
