@@ -6,11 +6,11 @@ if (!isset($_GET["id"]) || empty($_GET["id"])) {
   die("Missing product ID");
 }
 
-$productid = $_GET["id"];
+$Productenid = $_GET["id"];
 
 // select a particular product by id
-$stmt = $connection->prepare("DELETE FROM Producten WHERE id=:productid"); 
-$stmt->bindParam(":productid", $productid);
+$stmt = $connection->prepare("DELETE FROM Producten WHERE id=:Productenid");
+$stmt->bindParam(":Productenid", $Productenid);
 
 if ($stmt->execute()) {
   $_SESSION["message"] = "Product deleted successfully";
