@@ -1,5 +1,9 @@
 <?php
 session_start();
+if (!isset($_SESSION["user"])){
+  header( "Location: login.php");
+  exit();
+}
 include ("conn.php");
 
 if (!isset($_GET["id"]) || empty($_GET["id"])) {

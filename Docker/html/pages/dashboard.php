@@ -5,7 +5,7 @@ if (!isset($_SESSION["user"])){
     exit();
 }
 include ("conn.php");
-include '../pages/nav.php';
+include '../pages/nav_logout.php';
 
 ?>
 <!DOCTYPE html>
